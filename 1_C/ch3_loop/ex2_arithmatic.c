@@ -7,4 +7,5 @@ int main(void)
     // 형변환 : 묵시적 형변환 int i = 3.2
     //          명시적 형변환 (double)n1
     printf("%d %c %d = %.3lf\n", n1, '/', n2, (double)n1 / n2);
+    printf("%d %c %d = %d\n", n1, '%', n2, n1 % n2);
 }
