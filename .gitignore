@@ -2,5 +2,7 @@
 *.vcxproj.filters
 *.vcxproj.user
 *.sln
+*.db
+*.db-wal
 **/.vs/
 **/x64/
