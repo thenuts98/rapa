@@ -6,8 +6,8 @@
 int main()
 {
     srand((unsigned int)time(NULL));
-    printf("%d\n", rand());
-    printf("%d\n", rand());
-    printf("%d\n", rand());
+    printf("%d\n", rand() % 45 + 1);
+    printf("%d\n", rand() % 45 + 1);
+    printf("%d\n", rand() % 45 + 1);
     
 }
