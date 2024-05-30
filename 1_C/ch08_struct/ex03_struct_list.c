@@ -15,9 +15,9 @@ int main(void){
     a.next = &b;
     b.next = &c;
 
-    while(current != 0){
+    while(current){
         printf("%d\t", current->num);
         current = current->next;
     }
-    
+
 }
